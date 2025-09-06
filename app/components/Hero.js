@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <section className="text-center py-20 bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
+    <section
+      id="home"
+      className="text-center py-20 bg-gradient-to-r from-indigo-500 to-purple-600 text-white"
+    >
       <h1 className="text-4xl md:text-6xl font-bold mb-6">
         Grow Your Business with MySaaS
       </h1>

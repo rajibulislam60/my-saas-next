@@ -4,6 +4,9 @@ export default function Navbar() {
       <div className="text-xl font-bold text-indigo-600">MySaaS</div>
       <ul className="hidden md:flex gap-6 text-gray-700">
         <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
           <a href="#features">Features</a>
         </li>
         <li>

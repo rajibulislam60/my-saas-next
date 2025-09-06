@@ -5,7 +5,7 @@ import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
-import "../styles/globals.css";
+import "./globals.css";
 
 export default function Home() {
   return (
