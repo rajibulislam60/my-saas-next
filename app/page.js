@@ -1,7 +1,22 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
+import "../styles/globals.css";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-blue-500">
-      <h1 className="text-4xl font-bold text-white">Tailwind is Working! 🎉</h1>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Pricing />
+      <Testimonials />
+      <Faq />
+      <Footer />
+    </>
   );
 }
